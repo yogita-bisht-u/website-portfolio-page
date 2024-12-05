@@ -31,7 +31,8 @@
     <main>
 <div class="main">
 <div class="container">
-    <h1> this is about page </h1>
+    <h1> Hi, i am Yogita Bisht!</h1>
+     welcome to my personal blog website and portfolio page.
 </div>
 </div>
 </main>

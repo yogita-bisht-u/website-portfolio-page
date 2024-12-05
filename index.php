@@ -52,7 +52,7 @@
           </h1>
 
           <p class="h3">
-            Specialized in html,css,js
+            Specialized in html,css,js,php.
           </p>
 
           <div class="btn-group">
@@ -107,7 +107,7 @@
             <div class="blog-content-wrapper">
               <button class="blog-topic text-tiny">html</button>
               <h3>
-                <a href="#" class ="h3">
+                <a href="html-blog.php" class ="h3">
                   Building a webpage and website
                 </a>
               </h3>
@@ -130,7 +130,7 @@
 
                 
                 <p class ="text-sm">
-                  <time datetime="2024-12-03">dec 03,2024</time>
+                  <time datetime="2024-12-03">Dec 03,2024</time>
                   <span class ="separator"></span>
                   <ion-icon name="time-outline"></ion-icon>
                   <time datetime="PT3M">1 min</time>
@@ -147,26 +147,22 @@
             <div class="blog-card">
 
               <div class="blog-card-banner">
-                <img src="./assets/images/blog-1.png" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                <img src="./assets/images/css.png" alt="Building microservices with Dropwizard, MongoDB & Docker"
                   width="250" class="blog-banner-img">
               </div>
 
               <div class="blog-content-wrapper">
 
-                <button class="blog-topic text-tiny">Database</button>
+                <button class="blog-topic text-tiny">css</button>
 
                 <h3>
-                  <a href="#" class="h3">
-                    Building microservices with Dropwizard, MongoDB & Docker
+                  <a href="css-blog.php" class="h3">
+                  used to style and layout web pages 
                   </a>
                 </h3>
 
                 <p class="blog-text">
-                  This NoSQL database oriented to documents (by documents like JSON) combines some of the features from
-                  relational
-                  databases, easy to use and the multi-platform is the best option for scale up and have fault
-                  tolerance, load balancing,
-                  map reduce, etc.
+                CSS is the  “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). This language contains coding elements and is composed of these “cascading style sheets” which are equally called CSS files (. css).
                 </p>
 
                 <div class="wrapper-flex">
@@ -193,47 +189,7 @@
             </div>
 
 
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/blog-2.png" alt="Fast web page loading on a $20 feature phone" width="250"
-                  class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Web Performance</button>
-
-                <h3><a href="" class="h3">Fast web page loading on a $20 feature phone</a></h3>
-
-                <p class="blog-text">
-                  Feature phones are affordable (under $20-25), low-end devices enabling 100s of millions of users in
-                  developing countries
-                  to leverage the web. Think of them as a light version of a smart phone.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4"> Yogita Bisht</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-12-10">Dec 10, 2024</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT2M">2 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
+            
 
 
             <div class="blog-card">
@@ -247,7 +203,7 @@
 
                 <button class="blog-topic text-tiny">Accessibility</button>
 
-                <h3><a href="" class="h3">Accessibility Tips for Web Developers</a></h3>
+                <h3><a href="Accessibility-blog.php" class="h3">Accessibility Tips for Web Developers</a></h3>
 
                 <p class="blog-text">
                   It's awesome to build sites that are inclusive and accessible to everyone. There are at least six key
@@ -284,22 +240,18 @@
             <div class="blog-card">
 
               <div class="blog-card-banner">
-                <img src="./assets/images/blog-4.png" alt="Dynamically Securing Databases using Hashicorp Vault"
+                <img src="./assets/images/js.png" alt="Dynamically Securing Databases using Hashicorp Vault"
                   width="250" class="blog-banner-img">
               </div>
 
               <div class="blog-content-wrapper">
 
-                <button class="blog-topic text-tiny">Database</button>
+                <button class="blog-topic text-tiny">Javascript</button>
 
-                <h3><a href="" class="h3">Dynamically Securing Databases using Hashicorp Vault</a></h3>
+                <h3><a href="js-blog.php" class="h3">JavaScript is used to make web pages more interactive and dynamic</a></h3>
 
                 <p class="blog-text">
-                  Nowadays, it's hard to profoundly talk about security in the IT industry, since it has to be
-                  considered on so many
-                  different levels: from securing code chunks, securing containers, up to securing complex
-                  infrastructures and defining
-                  strong authorization and authentication policies across the enterprise.
+                JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.
                 </p>
 
                 <div class="wrapper-flex">
@@ -329,24 +281,19 @@
             <div class="blog-card">
 
               <div class="blog-card-banner">
-                <img src="./assets/images/blog-5.png"
+                <img src="./assets/images/php.png"
                   alt="Adaptive Loading - Improving Web Performance on low-end devices" width="250"
                   class="blog-banner-img">
               </div>
 
               <div class="blog-content-wrapper">
 
-                <button class="blog-topic text-tiny">Web Performance</button>
+                <button class="blog-topic text-tiny">php</button>
 
-                <h3><a href="" class="h3">Adaptive Loading - Improving Web Performance on low-end devices</a></h3>
+                <h3><a href="php-blog.php" class="h3">PHP can create, open, read, write, delete, and close files on the server.</a></h3>
 
                 <p class="blog-text">
-                  Adaptive Loading: Do not just respond based on screen size, adapt based on actual device hardware.
-                  Any user can have a slow experience. In a world with widely varying device capabilities, a "one-size"
-                  fits all
-                  experience may not always work. Sites that delight users on high-end devices can be unusable on
-                  low-end ones,
-                  particularly on median mobile and desktop hardware and in emerging markets.
+                PHP (Hypertext Processor) is a general-purpose scripting language and interpreter that is freely available and widely used for web development. The language is used primarily for server-side scripting, although it can also be used for command-line scripting and, to a limited degree, desktop applications.
                 </p>
 
                 <div class="wrapper-flex">
@@ -370,248 +317,12 @@
 
               </div>
 
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/blog-6.png"
-                  alt="Don't Develop Just for Yourself - A Developer's Checklist to Accessibility" width="250"
-                  class="blog-banner-img">
               </div>
 
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Accessibility</button>
-
-                <h3><a href="" class="h3">Don't Develop Just for Yourself - A Developer's Checklist to Accessibility</a>
-                </h3>
-
-                <p class="blog-text">
-                  We, as developers, tend to develop sites unconsciously for people like ourselves. If we don't actively
-                  pay attention,
-                  the sites are often accessible only for certain types of people: Sighted mouse-users, who have good
-                  fine motor skills
-                  and are good at using computers.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yogita Bisht
-                    
-                    </a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-10-25">Oct 25, 2024</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT7M">7 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/blog-7.png"
-                  alt="Building a Restful CRUD API with Node JS, Express, and MongoDB" width="250"
-                  class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Database</button>
-
-                <h3><a href="" class="h3">Building a Restful CRUD API with Node JS, Express, and MongoDB</a></h3>
-
-                <p class="blog-text">
-                  Application Programming Interface is the abbreviation for API. An API is a software interface that
-                  enables two apps to
-                  communicate with one another. In other words, an API is a messenger that sends your request to the
-                  provider and then
-                  returns the response to you.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yogita Bisht</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-10-15">Oct 15, 2024</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT5M">5 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/blog-8.png" alt="Monitoring Performance with the PageSpeed Insights API"
-                  width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Web Performance</button>
-
-                <h3><a href="" class="h3">Monitoring Performance with the PageSpeed Insights API</a></h3>
-
-                <p class="blog-text">
-                  The PageSpeed Insights API provides free access to performance monitoring for web pages and returns
-                  data with
-                  suggestions for how to improve. The V5 API includes lab data from Lighthouse and real-world data from
-                  the Chrome User
-                  Experience Report (CrUX).
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yogita Bisht</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-10-03">Oct 3, 2024</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT5M">5 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/blog-9.png" alt="The best web accessibility tools for developers in 2021"
-                  width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Accessibility</button>
-
-                <h3><a href="" class="h3">The best web accessibility tools for developers in 2021</a>
-                </h3>
-
-                <p class="blog-text">
-                  The quality of the tools you use defines the speed with which you can diagnose and resolve problems.
-                  Each year the landscape changes dramatically in web technologies, and of late the tooling for
-                  accessibility is no
-                  exception.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Julia Walker</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-09-13">Sep 13, 2024</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT7M">7 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/blog-10.png"
-                  alt="How to connect a React frontend with a NodeJS/Express backend" width="250"
-                  class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Database</button>
-
-                <h3><a href="" class="h3">How to connect a React frontend with a NodeJS/Express backend</a></h3>
-
-                <p class="blog-text">
-                  The MERN (MongoDB, Express, React, NodeJS) stack is very popular for making full stack applications,
-                  utilizing
-                  Javascript for both the backend and frontend as well as a document-oriented or non relational database
-                  (MongoDB),
-                  meaning that it's structured like JSON rather than a large excel sheet like SQL databases are.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Yogita Bisht</a>
-
-                    <p class="text-sm">
-                      <time datetime="2021-09-21">Sep 21, 2024</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT4M">4 min</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <button class="btn load-more">Load More</button>
+             </div>
+            
 
         </div>
-
-
-
-
 
         <!--
           - ASIDE
@@ -655,14 +366,12 @@
 
             <div class="wrapper">
 
-              <button class="hashtag">#mongodb</button>
-              <button class="hashtag">#nodejs</button>
-              <button class="hashtag">#a11y</button>
-              <button class="hashtag">#mobility</button>
-              <button class="hashtag">#inclusion</button>
-              <button class="hashtag">#webperf</button>
-              <button class="hashtag">#optimize</button>
-              <button class="hashtag">#performance</button>
+              <button class="hashtag">html</button>
+              <button class="hashtag">css</button>
+              <button class="hashtag">accessibility</button>
+              <button class="hashtag">JavaScript</button>
+              <button class="hashtag">php</button>
+              
 
             </div>
 

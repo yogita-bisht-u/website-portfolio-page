@@ -23,7 +23,7 @@
   --background-primary: hsl(0, 0%, 100%);
   --background-secondary: hsl(0, 0%, 97%);
 
-  --action-primary: hsl(214, 32%, 91%);
+  --action-primary: hsl(214, 83%, 23%);
   --action-secondary: hsl(210, 38%, 95%);
 
   --foreground-primary: hsl(218, 23%, 23%);
@@ -31,6 +31,7 @@
   --foreground-tertiary: hsl(214, 20%, 69%);
 
   --accent: hsl(229, 76%, 66%);
+  --content-color: hsl(0, 0%, 28%);
 
 }
 
@@ -51,6 +52,7 @@
   --foreground-tertiary: hsl(214, 20%, 69%);
 
   --accent: hsl(229, 76%, 66%);
+  --content-color: hsl(0, 9%, 89%);
 
 }
 
@@ -102,6 +104,7 @@ li { list-style: none; }
 img, button { display: block; }
 
 a, span { display: inline-block; }
+p {margin-top: 10px;}
 
 button {
   font: inherit;
@@ -670,6 +673,11 @@ footer .wrapper { text-align: center; }
     -webkit-box-orient: vertical;
     overflow: hidden;
     margin-bottom: 1rem;
+  }
+
+  .blog-content {
+    color: var(--content-color);
+
   }
 
   .blog .wrapper-flex {

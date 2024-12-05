@@ -30,12 +30,14 @@
     <main>
 <div class="main">
 <div class="container">
-    <h1> this is Contact page </h1>
+  <h1>contact Me </h1>
+
+
 </div>
 </div>
 </main>
  
- 
+
     <?php include 'footer.php';?>
 
     

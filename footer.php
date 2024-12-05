@@ -21,9 +21,7 @@
 
         <ul>
 
-          <li>
-            <a href="#" class="footer-link">Advertise with us</a>
-          </li>
+          
 
           <li>
             <a href="about.php" class="footer-link">About Us</a>
@@ -39,22 +37,30 @@
 
       <div class="wrapper">
 
-        <p class="footer-title">Legal Stuff</p>
+        <p class="footer-title">Blog's</p>
 
         <ul>
 
           <li>
-            <a href="#" class="footer-link">Privacy Notice</a>
+            <a href="html-blog.php" class="footer-link">html</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Cookie Policy</a>
+            <a href="css-blog.php" class="footer-link">Css</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Terms Of Use</a>
+            <a href="accessibility-blog.php" class="footer-link">accessibility tips</a>
           </li>
 
+          <li>
+            <a href="js-blog.php" class="footer-link">Javascript</a>
+          </li>
+          
+          <li>
+            <a href="php-blog.php" class="footer-link">PHP</a>
+          </li>
+          
         </ul>
 
       </div>
@@ -62,7 +68,7 @@
     </div>
 
     <p class="copyright">
-      &copy; Copyright 2024 <a href="#">SimpleBlog</a>
+      &copy; 2024 <a href="#">WebBlog</a>
     </p>
 
   </footer>
