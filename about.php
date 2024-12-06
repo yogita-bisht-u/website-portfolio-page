@@ -5,24 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
 
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+<?php include 'head-css.php';?>
 </head>
 <body class="light-theme"> 
 
@@ -31,8 +14,27 @@
     <main>
 <div class="main">
 <div class="container">
+  <div class="blog-content">
+    
     <h1> Hi, i am Yogita Bisht!</h1>
-     welcome to my personal blog website and portfolio page.
+    
+     <div class="contact">
+            <div>
+                <h3>Email</h3>
+                <p>yogitabisht@gmail.com</p>
+            </div>
+            <br>
+            <div>
+                <h3>Location</h3>
+                <p>Uttarakhand</p>
+            </div>
+            <br><br>
+            <div>
+                <h3>Phone</h3>
+                <p> 456-789-2349</p>
+            </div>
+      
+</div>
 </div>
 </div>
 </main>

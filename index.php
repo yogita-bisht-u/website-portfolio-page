@@ -6,24 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SimpleBlog - yogita Personal Blog</title>
+<?php include 'head-css.php';?>
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
 </head>
 
 <body class="light-theme">
@@ -334,15 +318,15 @@
 
             <h2 class="h2">Topics</h2>
 
-            <a href="#" class="topic-btn">
+            <a href="js-blog.php" class="topic-btn">
               <div class="icon-box">
                 <ion-icon name="server-outline"></ion-icon>
               </div>
 
-              <p>Database</p>
+              <p>JavaScript</p>
             </a>
 
-            <a href="#" class="topic-btn">
+            <a href="accessibility-blog.php" class="topic-btn">
               <div class="icon-box">
                 <ion-icon name="accessibility-outline"></ion-icon>
               </div>
@@ -350,12 +334,12 @@
               <p>Accessibility</p>
             </a>
 
-            <a href="#" class="topic-btn">
+            <a href="php-blog.php" class="topic-btn">
               <div class="icon-box">
                 <ion-icon name="rocket-outline"></ion-icon>
               </div>
 
-              <p>Web Performance</p>
+              <p>PHP</p>
             </a>
 
           </div>

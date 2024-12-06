@@ -4,9 +4,10 @@
 
       <nav class="navbar">
 
-        <a href="#">
-          <img src="./assets/images/logo-light.svg" alt="SimpleBlog logo" width="150" class="logo-light">
-          <img src="./assets/images/logo-dark.svg" alt="SimpleBlog logo" width="150" class="logo-dark">
+        <a href="index.php">
+          <img src="./assets/images/web-blog-logo.png" alt="SimpleBlog logo" width="150" class="logo-light">
+          <img src="./assets/images/web-blog-logo.png" alt="SimpleBlog logo" width="150" class="logo-dark">
+          
         </a>
 
         <div class="btn-group">

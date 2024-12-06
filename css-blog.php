@@ -4,25 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html</title>
-</head>
-<body>
-    <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
-
-<!--
-  - custom css link
--->
-<link rel="stylesheet" href="./assets/css/style.css">
-
-<!--
-  - google font link
--->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-  rel="stylesheet">
+    <?php include 'head-css.php';?>
 </head>
 <body class="light-theme"> 
 
@@ -31,11 +13,14 @@
 <main>
 <div class="main">
 <div class="container">
+    <div class="blog-content"
 <h1>css </h1>
 <article>
             <h2>What is CSS?</h2>
             <p>CSS, or <strong>Cascading Style Sheets</strong>, is a language used to describe the presentation of a web page, including colors, layout, and fonts. It allows developers to separate content (HTML) from design and make web pages visually appealing and user-friendly.</p>
-            
+            <!-- Add an image -->
+        <img src="./assets/images/css.png" alt="css" width="200">
+
             <h2>Why is CSS Important?</h2>
             <ul>
                 <li><strong>Separates Design from Content:</strong> By keeping HTML focused on structure and CSS on style, your code becomes cleaner and easier to maintain.</li>
@@ -118,6 +103,7 @@
                 <li><a href="https://flexboxfroggy.com/">Flexbox Froggy (Game to learn CSS Flexbox)</a></li>
             </ul>
         </article>
+</div>
 </div>
 </div>
 </main>

@@ -4,25 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html</title>
-</head>
-<body>
-    <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+<?php include 'head-css.php';?>
 
-<!--
-  - custom css link
--->
-<link rel="stylesheet" href="./assets/css/style.css">
-
-<!--
-  - google font link
--->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-  rel="stylesheet">
 </head>
 <body class="light-theme"> 
 
@@ -31,10 +14,13 @@
 <main>
 <div class="main">
 <div class="container">
+  <div class="blog-content">
 <h1>Accessibility </h1>
 <article>
         <h2>What is Accessibility?</h2>
         <p>Accessibility in web development refers to designing and building websites that can be used by everyone, including people with disabilities. It ensures equal access to information and functionality for all users, regardless of their abilities or the tools they use to navigate the web.</p>
+<!-- Add an image -->
+<img src="./assets/images/blog-3.png" alt="css" width="200">
 
         <h2>Why is Accessibility Important?</h2>
         <ul>
@@ -61,6 +47,7 @@
             <li><a href="https://wave.webaim.org/">WAVE Web Accessibility Evaluation Tool</a></li>
         </ul>
     </article>
+</div>
 
 
 </div>

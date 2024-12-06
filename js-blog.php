@@ -4,25 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html</title>
-</head>
-<body>
-    <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
 
-<!--
-  - custom css link
--->
-<link rel="stylesheet" href="./assets/css/style.css">
-
-<!--
-  - google font link
--->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-  rel="stylesheet">
+   <?php include 'head-css.php';?>
 </head>
 <body class="light-theme"> 
 
@@ -31,10 +14,13 @@
 <main>
 <div class="main">
 <div class="container">
+<div class="blog-content">
+<article >
 <h1>Javascript</h1>
-<article>
         <h2>What is JavaScript?</h2>
         <p>JavaScript is a versatile programming language that allows developers to create interactive and dynamic content on websites. It’s one of the core technologies of the web, alongside HTML and CSS.</p>
+<!-- Add an image -->
+<img src="./assets/images/js.png" alt="css" width="200">
 
         <h2>Why Learn JavaScript?</h2>
         <ul>
@@ -70,7 +56,7 @@
             <li><a href="https://www.w3schools.com/js/">W3Schools JavaScript Tutorial</a></li>
         </ul>
     </article>
-
+</div>
 
 </div>
 </div>
