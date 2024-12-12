@@ -79,55 +79,57 @@
 
           <div class="blog-card-group">
 
-          <div class ="blog-card">
-          
-            <div class="blog-card-banner">
-            <img src="./assets/images/html.png" alt="building html "
-            width="250" class="blog-banner-img">
-          </div>
 
-         
-          
-            <div class="blog-content-wrapper">
-              <button class="blog-topic text-tiny">html</button>
-              <h3>
-                <a href="html-blog.php" class ="h3">
+        <section id="html">
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/html.png" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">html</button>
+
+                <h3>
+                  <a href="css-blog.php" class="h3">
                   Building a webpage and website
-                </a>
-              </h3>
-              <p class ="blog-text">
-                Hypertext Markup Language (HTML) is the standard markup language used to create the structure and content of a web page: 
-                Structure: HTML defines the structure of a web page, including headings, paragraphs, and links. 
-                Content: HTML can display static content like text, images, links, and videos.
-              </p>
-              
+                  </a>
+                </h3>
 
-                
-              <div class="wrapper-flex">
+                <p class="blog-text">
+                HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. It defines the building blocks of a webpage, such as text, images, links, and more, by using tags.
+                </p>
+
+                <div class="wrapper-flex">
 
                   <div class="profile-wrapper">
-                  <img src="./assets/images/author.png" alt="Julia Walker" width="50">
-                </div>
-                <div class="wrapper">
-                  
-                  <a href="#" class="h4">Yogita Bisht</a>
+                    <img src="./assets/images/author.png" alt="Julia Walker" width="50">
+                  </div>
 
-                
-                <p class ="text-sm">
-                  <time datetime="2024-12-03">Dec 03,2024</time>
-                  <span class ="separator"></span>
-                  <ion-icon name="time-outline"></ion-icon>
-                  <time datetime="PT3M">1 min</time>
-              
-                </p>
+                  <div class="wrapper">
+                    <a href="#" class="h4">Yogita Bisht</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">Jan 17, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
               </div>
 
             </div>
-         
-          </div>
-          </div>
+</section>
 
 
+        
+
+          <section id="css">
             <div class="blog-card">
 
               <div class="blog-card-banner">
@@ -171,11 +173,12 @@
               </div>
 
             </div>
+</section>
 
 
             
 
-
+<section id="accessibility">
             <div class="blog-card">
 
               <div class="blog-card-banner">
@@ -219,8 +222,11 @@
               </div>
 
             </div>
+</section>
 
 
+
+<section id="javascript">
             <div class="blog-card">
 
               <div class="blog-card-banner">
@@ -260,8 +266,11 @@
               </div>
 
             </div>
+</section>
 
 
+
+<section id="php">
             <div class="blog-card">
 
               <div class="blog-card-banner">
@@ -307,7 +316,7 @@
             
 
         </div>
-
+</section>
         <!--
           - ASIDE
         -->
@@ -350,56 +359,21 @@
 
             <div class="wrapper">
 
-              <button class="hashtag">html</button>
-              <button class="hashtag">css</button>
-              <button class="hashtag">accessibility</button>
-              <button class="hashtag">JavaScript</button>
-              <button class="hashtag">php</button>
+              <button class="hashtag"><a class="tag-link" href ="#html">html</a></button>
+              <button class="hashtag"><a class="tag-link" href ="#css">css</a></button>
+              <button class="hashtag"><a class="tag-link" href ="#accessibility">accessibility</a></button>
+              <button class="hashtag"><a class="tag-link"href ="#javascript">JavaScript</a></button>
+              <button class="hashtag"><a class="tag-link" href ="#php">php</a></button>
               
 
             </div>
 
           </div>
 
-          <div class="contact">
-
-            <h2 class="h2">Let's Talk</h2>
-
-            <div class="wrapper">
-
-              <p>
-                Do you want to learn more about how I can help your company overcome problems? Let us have a
-                conversation.
-              </p>
-
-              <ul class="social-link">
-
-                <li>
-                  <a href="#" class="icon-box discord">
-                    <ion-icon name="logo-discord"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="icon-box twitter">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="icon-box facebook">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                  </a>
-                </li>
-
-              </ul>
-
-            </div>
-
-          </div>
+          
 
           <div class="newsletter">
-
+          
             <h2 class="h2">Newsletter</h2>
 
             <div class="wrapper">
@@ -408,7 +382,7 @@
                 Subscribe to our newsletter to be among the first to keep up with the latest updates.
               </p>
 
-              <form action="#">
+              <form action="newsletter-action.php" method="post">
                 <input type="email" name="email" placeholder="Email Address" required>
 
                 <button type="submit" class="btn btn-primary">Subscribe</button>

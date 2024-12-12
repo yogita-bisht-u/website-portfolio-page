@@ -21,26 +21,26 @@
   <h1>Contact Me </h1>
 
 
-  <form>
+  <form  action="contact-action.php" method="post">
   <div class="mb-3">
     <label for="name" class="form-label">First name</label>
-    <input type="name" class="form-control" id="name" aria-describedby="">
+    <input type="name" class="form-control" id="name"  name="firstname"aria-describedby="">
     
   </div>
 
   <div class="mb-3">
     <label for="last" class="form-label">Last name</label>
-    <input type="last" class="form-control" id= "last" aria-describedby="">
+    <input type="last" class="form-control" id= "lastname" name="lastname" aria-describedby="">
     
   </div>
 
   <div class="mb-3">
     <label for="email" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="email">
+    <input type="email" class="form-control" id="email" name="email">
   </div>
   <div class="mb-3">
     <label for="message" class="form-label">Message</label>
-    <textarea class="form-control" id="message">
+    <textarea class="form-control" id="message" name="message">
 </textarea>
   </div>
   

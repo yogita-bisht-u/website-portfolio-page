@@ -992,6 +992,9 @@ footer .wrapper { text-align: center; }
     font-weight: 700;
     border-radius: 5px;
   }
+  .tag-link:visited{
+    color: white;
+  }
 
   .tags .hashtag:hover {
     background: var(--foreground-secondary);

@@ -5,8 +5,8 @@
       <nav class="navbar">
 
         <a href="index.php">
-          <img src="./assets/images/web-blog-logo.png" alt="SimpleBlog logo" width="150" class="logo-light">
-          <img src="./assets/images/web-blog-logo.png" alt="SimpleBlog logo" width="150" class="logo-dark">
+          <img src="./assets/images/logo.jpg" alt="SimpleBlog logo" width="150" class="logo-light">
+          <img src="./assets/images/logo.jpg" alt="SimpleBlog logo" width="150" class="logo-dark">
           
         </a>
 

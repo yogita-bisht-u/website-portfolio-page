@@ -5,8 +5,8 @@
       <div class="wrapper">
 
         <a href="#" class="footer-logo">
-          <img src="./assets/images/web-blog-logo.png" alt="SimpleBlog Logo" width="150" class="logo-light">
-          <img src="./assets/images/web-blog-logo.png" alt="SimpleBlog Logo" width="150" class="logo-dark">
+          <img src="./assets/images/logo.jpg" alt="SimpleBlog Logo" width="150" class="logo-light">
+          <img src="./assets/images/logo.jpg" alt="SimpleBlog Logo" width="150" class="logo-dark">
         </a>
 
         <p class="footer-text">
